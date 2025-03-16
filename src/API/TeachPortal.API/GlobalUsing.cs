@@ -1,0 +1,16 @@
+﻿global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.OpenApi.Models;
+global using System.Net;
+global using System.Text.Json;
+global using TeachPortal.API;
+global using TeachPortal.API.Middleware;
+global using TeachPortal.API.Models;
+global using TeachPortal.Application;
+global using TeachPortal.Application.Contracts.Business;
+global using TeachPortal.Application.Contracts.Identity;
+global using TeachPortal.Application.Exceptions;
+global using TeachPortal.Application.Models.BusinessDTO;
+global using TeachPortal.Application.Models.Identity;
+global using TeachPortal.Identity;
+global using TeachPortal.Persistent;
